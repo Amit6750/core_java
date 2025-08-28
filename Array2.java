@@ -1,0 +1,21 @@
+package first;
+
+public class Array2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[]arr=new int[100];
+		for(int i=0;i<100;i++)
+		{
+			arr[i]=i+1;
+		}
+		for(int i=0;i<100;i++)
+		{
+			if(arr[i]%2!=0)
+			{
+				System.out.println(arr[i]);
+			}
+		}
+	}
+
+}
