@@ -1,35 +1,39 @@
-package first;
+package TwoDi;
 
 public class First {
 
 	public static void main(String[] args) {
-		
-		int int =100;
-		if(percentage >=35 && percentage<50)
-		{
-		System.out.println("pass");	
-		}
-		else if(percentage>=50 && percentage<60)
-		{
-		System.out.println("threed class");
-		
-		}
-		else if(percentage>=60 && percentage<70)
-		{
-			System.out.println("second class");
-		}
-		else if(percentage>=70 && percentage<80)
-		{
-			System.out.println("first class");
-		}
-		else if(percentage>=80 && percentage<99)
-		{
-			System.out.println("topper");
-		}
-		else
-		{
-			System.out.println("hard luck");
-		}
-	}
-}
+		// TODO Auto-generated method stub
 
+		int [][] arr=new int [3][3];
+		//new int [row][column];
+		
+		arr[0][0]=1;
+		arr[0][1]=2;
+		arr[0][2]=3;
+		
+		arr[1][0]=4;
+		arr[1][1]=5;
+		arr[1][2]=6;
+		
+		
+		arr[2][0]=7;
+		arr[2][1]=8;
+		arr[2][2]=9;
+		
+		for(int i=0;i<3;i++)
+		{
+			for(int j=0;j<3;j++)
+			{
+				System.out.print(arr[i][j]+"");
+			}
+			//syso=>jump to the next row
+			
+			System.out.println();
+		}
+		
+		
+		
+	}
+
+}
